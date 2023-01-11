@@ -1,0 +1,14 @@
+.container {
+    background-color: white;
+    cursor: default;
+}
+
+.container > ul {
+    list-style: none;
+}
+
+.p {
+    font-size: 2rem;
+    color: black
+}
+

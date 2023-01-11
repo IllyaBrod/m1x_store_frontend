@@ -1,0 +1,10 @@
+.button {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 60px;
+}
+
+.link {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

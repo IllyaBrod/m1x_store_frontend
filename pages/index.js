@@ -6,6 +6,19 @@ import Showcase from '../components/Showcase';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
+  const brandsList = [{
+      id: 1,
+      title: "Invicta"
+    }, 
+    {
+      id: 2,
+      title: "Rolex"
+    },
+    {
+      id: 3,
+      title: "Casio"
+    }];
+
   return (
     <>
       <Head>
@@ -14,9 +27,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <NavBar brandsList={brandsList} />
+
       <header>
-        <NavBar></NavBar>
+        <Showcase/>
       </header>
+      
       <main className={styles.main}>
         
       </main>
